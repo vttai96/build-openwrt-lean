@@ -91,7 +91,7 @@ jobs:
     - name: Print config
       run: |
         cd openwrt
-        cat ./config
+        cat ./.config
 
     - name: Download package
       id: package
