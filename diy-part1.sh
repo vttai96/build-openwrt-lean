@@ -15,5 +15,5 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git lienol https://github.com/Hyy2001X/luci-app-adguardhome' feeds.conf.default
-sed -i '$a src-git lienol https://github.com/rufengsuixing/luci-app-usb3disable' feeds.conf.default
+sed -i '$a src-git agh https://github.com/Hyy2001X/luci-app-adguardhome' feeds.conf.default
+sed -i '$a src-git usb3 https://github.com/rufengsuixing/luci-app-usb3disable' feeds.conf.default
