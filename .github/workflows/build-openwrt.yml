@@ -140,7 +140,7 @@ jobs:
 
     - name: Compile the firmware
       id: compile
-      if: ~((github.event.inputs.all == 'true' && github.event.inputs.all  != 'false') || contains(github.event.action, 'all'))
+      if: ${{ !((github.event.inputs.all == 'true' && github.event.inputs.all  != 'false') || contains(github.event.action, 'all')) }}
       run: |
         cd openwrt
         echo -e "$(nproc) thread compile"
