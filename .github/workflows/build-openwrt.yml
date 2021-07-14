@@ -31,7 +31,7 @@ env:
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: true
   UPLOAD_WETRANSFER: true
-  TZ: 'Asia/Ho Chi Minh'
+  TZ: Asia/Ho_Chi_Minh
 
 jobs:
   build:
